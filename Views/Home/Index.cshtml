@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Luce's Home Page";
+}
+
+<div class="jumbotron">
+    <h1>MIS4200</h1>
+    <p class="lead">This class is a capstone system development class in the MIS major.</p>
+    <p><a href="http://cob.ohio.edu" class="btn btn-primary btn-lg">COB - OU</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>My links</h2>
+        <p>
+            <ul>
+                <li>@Html.ActionLink("Customer", "Index", "Customers")</li>
+                <li>@Html.ActionLink("Orders", "Index", "Orders")</li>
+            </ul>
+        </p>
+   
+    </div>
+    <div class="col-md-4">
+        <h2>My College</h2>
+        <p>I am in the College of Business at Ohio University</p>
+        <p><a class="btn btn-default" href="http://ohio.edu">Ohio University</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>
