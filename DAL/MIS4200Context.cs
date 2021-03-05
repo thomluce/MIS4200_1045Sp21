@@ -18,6 +18,7 @@ namespace MIS4200_1045.DAL
         public DbSet<LineItem> lineItem { get; set; }
         public DbSet<Product> product { get; set; }
         public DbSet<Supplier> supplier { get; set; }
+        public DbSet<Profile> profile { get; set; }
     }
 
 }
